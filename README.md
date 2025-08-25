@@ -110,7 +110,8 @@ streamlit run Employee_dashboard.py
 ---
 
 ## 📊 Evaluation Metrics
-Accuracy
+
+**Accuracy
 
 Precision & Recall
 
@@ -118,12 +119,15 @@ F1-Score
 
 AUC-ROC Curve
 
-Confusion Matrix
+Confusion Matrix**
+
+---
 
 ## 💡 Business Impact
-Attrition Reduction: Identify high-risk employees and apply retention strategies.
 
-Cost Optimization: Reduce hiring and training costs.
+**Attrition Reduction**: Identify high-risk employees and apply retention strategies.
 
-Workforce Planning: Improve long-term employee engagement & satisfaction.
+**Cost Optimization**: Reduce hiring and training costs.
+
+**Workforce Planning**: Improve long-term employee engagement & satisfaction.
 
