@@ -35,14 +35,14 @@ The project includes:
 
 ## 📂 Repository Structure
 
--**1.Data_Cleaning.ipynb** # Data preprocessing & cleaning
+- **1.Data_Cleaning.ipynb** # Data preprocessing & cleaning
 - **2.Data_Visualization.ipynb** # Exploratory Data Analysis (EDA)
--**3.Stastical_Analysis.ipynb** # Hypothesis testing & statistical analysis
--**4.Data_Modeling.ipynb** # ML model training & evaluation
--**Employee_dashboard.py** # Streamlit dashboard app
--models/ # Saved trained models (Pickle/Joblib)
--data/ # Raw & processed datasets
--README.md # Project description (this file)
+- **3.Stastical_Analysis.ipynb** # Hypothesis testing & statistical analysis
+- **4.Data_Modeling.ipynb** # ML model training & evaluation
+- **Employee_dashboard.py** # Streamlit dashboard app
+- models/ # Saved trained models (Pickle/Joblib)
+- data/ # Raw & processed datasets
+- README.md # Project description (this file)
 
 ---
 
