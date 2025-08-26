@@ -282,7 +282,7 @@ elif page == "📊 Analytics & Prediction":
                 prediction = attrition_model.predict(input_df)[0]
                 prob = attrition_model.predict_proba(input_df)[0][1]
 
-                if prediction == "Yes" if prob > 0.5 else "No":
+                if prediction == "Yes":
                     st.error(f"⚠️ Employee is likely to leave. (Prob: {prob:.2f})")
                 else:
                     st.success(f"✅ Employee is likely to stay. (Prob: {prob:.2f})")
@@ -327,7 +327,7 @@ elif page == "📊 Analytics & Prediction":
                 prediction = performance_model.predict(input_df)[0]
                 prob = performance_model.predict_proba(input_df)[0][1]
 
-                if prediction == "Outstanding" if prob > 0.5 else "Excellent":
+                if prediction == "Outstanding":
                     st.success(f"☑️ Predicted Performance Rating: 4 (Outstanding). Probability: {prob:.2f}")
                 else:
                     st.success(f"✅ Predicted Performance Rating: 3 (Excellent). Probability: {prob:.2f}")
@@ -369,6 +369,7 @@ elif page == "📊 Analytics & Prediction":
                     st.warning(f"⏳ Promotion expected in the mid-term. (Confidence: {prob:.2f})")
                 else:
                     st.error(f"❌ Promotion unlikely in near future. (Confidence: {prob:.2f})")
+
 
 
 
